@@ -40,7 +40,7 @@ catch {
         $log4jvulnerable = "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') - ERROR: Unable to scan files"
         $log4jvulnerablefilecount = '-1'
         Write-Host $log4jfiles -ForegroundColor Red
-        Exit 1 #Tell RMM The Check Faileds
+        Exit 1 #Tell RMM The Check Failed
     }
 }
 
